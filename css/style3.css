@@ -22,6 +22,9 @@ body {
     margin: auto;
 }
 .foto img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
     border: 4px solid white;
     padding: 5px;
     background: rgba(255, 209, 5, 0.438);
