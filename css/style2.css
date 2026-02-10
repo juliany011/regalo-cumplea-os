@@ -1,0 +1,64 @@
+main {
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+}
+body {
+    background-image: url("image/imagenmargaritasrosas.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.text p {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    max-width: 600px;
+    margin: auto;
+}
+.boton {
+    position: relative;
+    width: 100px;
+    height: 90px;
+    background-color: #e544fa;
+    transform: rotate(-45deg);
+    border: none;
+    cursor: pointer;
+    margin: 40px auto;
+    display: block;
+
+}
+.boton::before,.boton::after {
+content: "";
+position: absolute;
+width: 100px;
+height: 90px;
+background-color: #e544fa;
+border-radius: 50%;
+}
+.boton::before {
+    top: -50px;
+    left: 0;
+}
+.boton::after {
+    top: 0px;
+    left: 50px;
+}
+.anclaje {
+position: absolute;
+z-index: 2;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%) rotate(45deg);
+font-weight: bold;
+text-align: center;
+width: 100%;
+text-decoration: none;
+color: black;
+}
+.boton, .boton::before, .boton::after {
+    box-shadow: 0 4px 10px rgb(255, 117, 234);
+}
