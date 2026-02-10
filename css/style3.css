@@ -6,7 +6,7 @@ main {
     justify-content: center;
 }
 body {
-    background-image: url("img/imagenmargaritablanca.jpg");
+    background-image: url("/img/imagenmargaritablanca.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
