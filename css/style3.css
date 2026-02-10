@@ -1,0 +1,60 @@
+main {
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    background-image: url("image/imagenmargaritablanca.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.texto {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    max-width: 600px;
+    margin: auto;
+}
+.foto img {
+    border: 4px solid white;
+    padding: 5px;
+    background: rgba(255, 209, 5, 0.438);
+    border-radius: 50%;
+    box-shadow: 0 10px 25px rgb(246, 248, 121);
+}
+.texto2 {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    max-width: 600px;
+    margin: auto;
+}
+.boton a {
+    display: inline-block;
+  padding: 14px 32px;
+
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(41, 19, 22);
+
+
+  background: linear-gradient(
+    135deg,
+    #fffd71,
+    #ff636b
+  );
+
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(247, 140, 160, 0.5);
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
